@@ -1,4 +1,3 @@
-
 # Imagen base Odoo 17
 FROM odoo:17
 
@@ -21,11 +20,11 @@ CMD ["bash","-lc", "\
   odoo -d $PGDATABASE -i base --without-demo=all \
        --db_host=$PGHOST --db_port=$PGPORT \
        --db_user=$PGUSER --db_password=$PGPASSWORD \
-       --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/extra-addons \
+       --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
        --stop-after-init || true; \
   echo '==> Starting Odoo server' && \
   odoo --db_host=$PGHOST --db_port=$PGPORT \
        --db_user=$PGUSER --db_password=$PGPASSWORD \
-       --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/extra-addons \
+       --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
        --db-filter=$PGDATABASE \
        --dev=all"]
