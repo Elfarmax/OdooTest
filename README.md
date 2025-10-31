@@ -11,6 +11,7 @@ extra-addons/
 ├      ├── __init__.py
 ├      └── __manifest__.py
 └── README.md
+
 >  **Nota:**  
 > Los unicos archivos con contenido son: "Dockerfile" y "__manifest__.py", el resto no tienen contenido.
 > El contenido de estos archivos se encuentra al final de esta documentación.
