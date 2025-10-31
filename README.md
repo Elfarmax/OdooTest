@@ -5,14 +5,15 @@
 ### **1.1 GitHub**
 
 Antes de comenzar, debemos tener preparado nuestro repositorio en GitHub con la siguiente estructura de directorios:
+```
 Dockerfile
 extra-addons/
-- extra-addons/
-  - .gitkeep
-  - dummy_module/
-    - __init__.py
-    - __manifest__.py
-- README.md
+├  ├── .gitkeep
+├  └── dummy_module/
+├      ├── __init__.py
+├      └── __manifest__.py
+└── README.md
+```
 
 >  **Nota:**  
 > Los unicos archivos con contenido son: "Dockerfile" y "__manifest__.py", el resto no tienen contenido.
