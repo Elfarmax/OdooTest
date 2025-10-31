@@ -90,7 +90,7 @@ Cuando el servicio Odoo se reinicie:
 ==> Checking/initializing DB <nombre_de_tu_bd>
 ==> Starting Odoo server
 
-> 🔴 **Consejos:**  
+> **Consejos:**  
 > Asegúrate de que tanto Odoo como Postgres estén en la misma región dentro de Render para evitar problemas de conexión o latencia.
 - Si hay algún error (por ejemplo, credenciales incorrectas o base de datos inaccesible), Render mostrará mensajes indicando el problema.
 
