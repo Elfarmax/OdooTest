@@ -14,6 +14,7 @@ extra-addons/
 >  **Nota:**  
 > Los unicos archivos con contenido son: "Dockerfile" y "__manifest__.py", el resto no tienen contenido.
 > El contenido de estos archivos se encuentra al final de esta documentación.
+> **Muy importante** Poner atencion a la estructura de los directorios.
 
 ---
 ### **1.2 Render**
@@ -50,8 +51,7 @@ Después:
 
 1. Configuraremos la base de datos según las preferencias del usuario (nombre, región, plan gratuito o de pago, etc.).  
 2. Cuando todo esté listo, pulsaremos el botón **"Create Database"**.
-
-Esto creará nuestra base de datos **PostgreSQL**, que será la que Odoo utilizará para almacenar toda la información del sistema.
+3. Esto creará nuestra base de datos **PostgreSQL**, que será la que Odoo utilizará para almacenar toda la información del sistema.
 
 ---
 ## **3. Conexión entre Odoo y la Base de Datos Postgres en Render**
