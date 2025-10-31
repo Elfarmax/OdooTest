@@ -1,8 +1,9 @@
 # OdooTests
-# **Implementación de Odoo en Render**
+# **Implementar Odoo en Render**
 
 ## **1. Requisitos Previos**
 ### **1.1 GitHub**
+
 Antes de comenzar, debemos tener preparado nuestro repositorio en GitHub con la siguiente estructura de directorios:
 Dockerfile
 extra-addons/
