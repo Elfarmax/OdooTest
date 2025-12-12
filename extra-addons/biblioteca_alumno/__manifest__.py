@@ -9,5 +9,7 @@
         "views/biblioteca_libro_views.xml",
     ],
     "installable": True,
-    "application": True, # Para que aparezca en el lanzador de Odoo como una app
+    "application": True,
+    # ESTA LÍNEA ELIMINA LA ADVERTENCIA:
+    "license": "LGPL-3", 
 }
